@@ -1,0 +1,44 @@
+
+
+#round{
+    transform: rotate(90deg);
+    height:400px ;
+    width:400px ;
+}
+.photo{
+    height: 30px;
+    width: 30px;
+}
+
+div{
+    background-color:rgba(255, 204, 204,0.7);
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
+padding: 20px 20px;
+border-radius: 10px;}
+    
+li{
+    display: inline;
+    margin: 10px 10px;
+}
+
+body{
+    background-image: url(images/tailand.jpg);
+}
+
+@media(max-width:960px) {
+    div{
+        width: 700px;
+    }
+}
+@media(max-width:720px) {
+    div{
+        width: 500px;
+    }
+}
+@media(max-width:540px) {
+    div{
+        width: 300px;
+    }
+}
